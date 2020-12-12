@@ -15,5 +15,9 @@ print(f' luas segitiga dengan alas 10cm dan tinggi 6cm maka luasnya = {a.luas_se
 print(a.luas_segiempat(10,5))
 print(f' luas segiempat dengan panjang 10cm dan lebar 5cm maka luasnya = {a.luas_segiempat(10,5)}cm*2')
 
-import geometri.tambahan
+#CARA MENGEMBALIKAN STRING
+from geometri.tambahan import luas_segi, info
+print(info ())
+
+from geometri.segitiga import luas_segiempat, info
 print(info ())
