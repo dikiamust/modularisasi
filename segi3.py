@@ -5,6 +5,5 @@ def luas_segitiga (alas, tinggi):
     return luas_segitiga
 
 print(luas_segitiga(10, 5))
-print(luas_segitiga(20, 10))
+print(luas_segitiga(20, 5))
 print(f'sebuah segitiga dengan alas 20 dan tinggi 10 maka luasnya= {luas_segitiga(20, 10)}')
-
